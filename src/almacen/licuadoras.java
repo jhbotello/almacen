@@ -18,7 +18,7 @@ public class licuadoras extends almacen
         this.velocidades=0;
   }
   
-   public licuadoras(String marca, String modelo, int precio, int cantidad, int velocidades){
+   public licuadoras(String marca, String modelo, int precio, int cantidad){
            super(marca, modelo, precio, cantidad);
            this.velocidades = velocidades;
                    }

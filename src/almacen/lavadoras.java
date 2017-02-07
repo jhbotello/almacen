@@ -18,7 +18,7 @@ public class lavadoras extends almacen {
         this.libras=0;
   }
   
-   public lavadoras(String marca, String modelo, int precio, int cantidad, int libras){
+   public lavadoras(String marca, String modelo, int precio, int cantidad){
            super(marca, modelo, precio, cantidad);
            this.libras = libras;
                    }
