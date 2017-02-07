@@ -22,10 +22,41 @@ public class televisores extends almacen
         this.smarttv=false;
     }
     
-    public televisores(String marca, String modelo, int precio, int cantidad){
+    public televisores(String marca, String modelo, int precio, int cantidad,
+            int pulgadas, String color, boolean smarttv){
         super(marca, modelo, precio, cantidad);
         this.pulgadas = pulgadas;
         this.color = color;
         this.smarttv = smarttv;
-        
-                
+    }
+
+    public int getPulgadas() {
+        return pulgadas;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public boolean isSmarttv() {
+        return smarttv;
+    }
+
+    public void setPulgadas(int pulgadas) {
+        this.pulgadas = pulgadas;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setSmarttv(boolean smarttv) {
+        this.smarttv = smarttv;
+    }
+
+    @Override
+    public String toString() {
+        return "televisores{" + "pulgadas=" + pulgadas + ", color=" + color + ", smarttv=" + smarttv + '}';
+    }
+      
+}         
